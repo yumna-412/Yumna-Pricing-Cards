@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plans & Pricing</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+
+    <main class="container">
+
+        <header>
+            <p class="subtitle">PLANS & PRICING</p>
+            <h1>Simple pricing. More possibilities.</h1>
+            <p class="description">
+                Choose the perfect plan to match your goals.
+            </p>
+        </header>
+
+        <section class="pricing-section">
+
+            <div class="billing-toggle">
+                <button id="monthly" class="active"
+                    aria-pressed="true">Monthly</button>
+
+                <button id="yearly"
+                    aria-pressed="false">Yearly</button>
+
+                <span class="save-label">Save 20%</span>
+            </div>
+
+            <div class="pricing-grid">
+
+                <!-- Starter Plan -->
+                <article class="card starter">
+                    <h2>Starter</h2>
+                    <p class="plan-description">
+                        Perfect for getting started.
+                    </p>
+
+                    <div class="price-area">
+                        <span class="currency">₹</span>
+                        <span class="price"
+                            data-monthly="299"
+                            data-yearly="2870">299</span>
+                    </div>
+
+                    <p class="unit">per month</p>
+
+                    <button class="plan-btn">Get Started</button>
+
+                    <div class="features">
+                        <p>✓ 5 Projects</p>
+                        <p>✓ Basic Analytics</p>
+                        <p>✓ Email Support</p>
+                        <p>✓ 5 GB Storage</p>
+                        <p>✓ Basic Dashboard</p>
+                    </div>
+                </article>
+
+                <!-- Popular Plan -->
+                <article class="card popular">
+
+                    <div class="ribbon">POPULAR</div>
+
+                    <h2>Pro</h2>
+                    <p class="plan-description">
+                        Great for growing businesses.
+                    </p>
+
+                    <div class="price-area">
+                        <span class="currency">₹</span>
+                        <span class="price"
+                            data-monthly="699"
+                            data-yearly="6710">699</span>
+                    </div>
+
+                    <p class="unit">per month</p>
+
+                    <button class="plan-btn">Choose Pro</button>
+
+                    <div class="features">
+                        <p>✓ Unlimited Projects</p>
+                        <p>✓ Advanced Analytics</p>
+                        <p>✓ Priority Support</p>
+                        <p>✓ 50 GB Storage</p>
+                        <p>✓ Custom Dashboard</p>
+                    </div>
+                </article>
+
+                <!-- Team Plan -->
+                <article class="card team">
+
+                    <div class="ribbon best-value">BEST VALUE</div>
+
+                    <h2>Team</h2>
+                    <p class="plan-description">
+                        Built for teams and collaboration.
+                    </p>
+
+                    <div class="price-area">
+                        <span class="currency">₹</span>
+                        <span class="price"
+                            data-monthly="1499"
+                            data-yearly="14390">1499</span>
+                    </div>
+
+                    <p class="unit">per month</p>
+
+                    <button class="plan-btn">Choose Team</button>
+
+                    <div class="features">
+                        <p>✓ Everything in Pro</p>
+                        <p>✓ Team Collaboration</p>
+                        <p>✓ 24/7 Support</p>
+                        <p>✓ 200 GB Storage</p>
+                        <p>✓ Advanced Security</p>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <footer>
+            <p>Designed for better possibilities.</p>
+            <span>Made with HTML, CSS & JavaScript</span>
+        </footer>
+
+    </main>
+
+</body>
+</html>
